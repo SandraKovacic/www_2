@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('../fonts/bebasneue/BebasNeue-webfont.eot');
+    src: url('../fonts/bebasneue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue';
+    src: url('../fonts/helvetica_neue/helveticaneue-roman-webfont.eot');
+    src: url('../fonts/helvetica_neue/helveticaneue-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica_neue/helveticaneue-roman-webfont.woff') format('woff'),
+         url('../fonts/helvetica_neue/helveticaneue-roman-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica_neue/helveticaneue-roman-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/myriad_web_pro/myriad-regular-webfont.eot');
+    src: url('../fonts/myriad_web_pro/myriad-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/myriad_web_pro/myriad-regular-webfont.woff') format('woff'),
+         url('../fonts/myriad_web_pro/myriad-regular-webfont.ttf') format('truetype'),
+         url('../fonts/myriad_web_pro/myriad-regular-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media screen and (min-width: 240px) and (-webkit-device-pixel-ratio: 1)  { 
+
+	p.f_one {
+		font-size:28px;
+		color:#464646;
+		font-family:'bebas_neue', Arial, Helvetica;
+		
+		
+	}
+	
+	p.f_two {
+		font-size:22px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+		
+		
+	}
+	
+	p.f_three {
+		font-size:18px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+				
+	}
+
+	p.date {
+		font-size:15px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 5px 0px 2px 5px;
+		
+	}
+	
+	p.time  {
+		font-size:15px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 0px 0px 2px 0px;
+		
+		
+	}
+	
+	p.title {
+		font-size:10px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:12px;
+		margin: 0px 0px 0px 0px;
+		
+	}
+	
+	p.desc {
+		font-size:7px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:9px;
+		margin: 2px 0px 2px 0px;
+		text-transform:none
+		
+	}
+	
+	p.event {
+		font-size:10px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:12px;
+		margin: 0px 0px 2px 0px;
+	
+		
+		
+	}
+	
+	p.lect {
+		font-size:7px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:9px;
+		margin: 0px 0px 2px 0px;
+		text-transform:none
+		
+	}
+
+
+
+}
+
+@media screen and (min-width: 460px) and (-webkit-device-pixel-ratio: 1.5){ 
+
+	p.f_one {
+		font-size:28px;
+		color:#464646;
+		font-family:'bebas_neue', Arial, Helvetica;
+		
+		
+	}
+	
+	p.f_two {
+		font-size:22px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+		
+		
+	}
+	
+	p.f_three {
+		font-size:18px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+		
+		
+	}
+
+
+	p.date {
+		font-size:21px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 13px 0px 5px 4px;
+		
+	}
+	
+	p.title {
+		font-size:15px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 5px 0px 5px 0px;
+		
+	}
+	
+	p.desc {
+		font-size:10px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:12px;
+		margin: 5px 0px 5px 0px;
+		text-transform:none
+		
+	}
+	
+	
+		p.time  {
+		font-size:15px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 0px 0px 2px 0px;
+		
+		
+	}
+	
+	p.event {
+		font-size:15px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:17px;
+		margin: 5px 0px 5px 0px;
+		
+		
+	}
+	
+	p.lect {
+		font-size:10px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:12px;
+		margin: 5px 0px 5px 0px;
+		text-transform:none
+		
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+@media screen and (min-width: 640px) and (-webkit-device-pixel-ratio: 2) { 
+
+	p.f_one {
+		font-size:28px;
+		color:#464646;
+		font-family:'bebas_neue', Arial Bold, Helvetica;
+		float:left;
+		text-transform:none;
+		margin:0px;
+	
+		
+		
+	}
+	
+	p.f_two {
+		font-size:22px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+		text-transform:none;
+		padding-top:5px;
+		margin:0px
+		
+		
+		
+		
+	}
+	
+	p.f_three {
+		font-size:18px;
+		color:#464646;
+		font-family:'helvetica_neue', Arial, Helvetica;
+		text-transform:none;
+		font-weight:light;
+		margin:0px;
+		
+		
+		
+	}
+
+	p.date {
+		font-size:30px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:30px;
+		margin: 15px 0px 5px 2px;
+		
+	}
+	
+	p.title {
+		font-size:21px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:21px;
+		margin: 5px 0px 5px 0px;
+		
+	}
+	
+	p.desc {
+		font-size:14px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:19px;
+		margin: 5px 0px 5px 0px;
+		text-transform:none
+		
+	}
+	
+	p.time {
+		font-size:30px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:30px;
+		margin: 15px 0px 5px 0px;
+		
+		
+	}
+	
+	p.event {
+		font-size:21px;
+		color:#3b3b3b;
+		font-family:'bebas_neue', Arial, Helvetica;
+		line-height:21px;
+		margin: 5px 0px 5px 0px;
+	
+		
+	}
+	
+	p.lect {
+		font-size:14px;
+		color:#5c5c5c;
+		font-family:'MyriadProRegular', Arial, Helvetica;
+		line-height:19px;
+		margin: 5px 0px 5px 0px;
+		text-transform:none
+		
+	}
+	
+}
